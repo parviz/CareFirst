@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="48837" started-at="2014-03-23T19:03:31Z" finished-at="2014-03-23T19:04:20Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="48837" started-at="2014-03-23T19:03:31Z" finished-at="2014-03-23T19:04:20Z">
+      <class name="com.qa.test.CareFirst">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.test.CareFirst@61ec56c9]" name="beforeMethod" is-config="true" duration-ms="13683" started-at="2014-03-23T15:03:31Z" finished-at="2014-03-23T15:03:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:com.qa.test.CareFirst@61ec56c9]" name="f" duration-ms="34866" started-at="2014-03-23T15:03:44Z" finished-at="2014-03-23T15:04:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.test.CareFirst@61ec56c9]" name="afterMethod" is-config="true" duration-ms="272" started-at="2014-03-23T15:04:19Z" finished-at="2014-03-23T15:04:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.qa.test.CareFirst -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
