@@ -45,7 +45,7 @@ public class CareFirst {
 	    driver.switchTo().window(newTab.get(0));
 	   
 	    System.out.println(newTab);  
-	    System.out.println("new Tab");
+	    //System.out.println("new Tab");
 	    driver.findElement(By.xpath(".//*[@id='Point of Service (POS)']/div[2]/input")).click();
 	    Thread.sleep(4000);
 	    driver.findElement(By.cssSelector("#btnContinue > span")).click();
