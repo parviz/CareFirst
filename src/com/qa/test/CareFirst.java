@@ -2,7 +2,9 @@ package com.qa.test;
 
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
+
 import junit.framework.Assert;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -36,14 +38,14 @@ public class CareFirst {
 	    driver.findElement(By.linkText("Find a Provider")).click();
 	    
 	    //driver.switchTo().window(title);
-	   
+	   //88888888888888888888888
 	    ArrayList<String> newTab = new ArrayList<String>(driver.getWindowHandles());
 	    newTab.remove(oldTab);
 	    // change focus to new tab
 	    driver.switchTo().window(newTab.get(0));
 	   
 	    System.out.println(newTab);  
-	    
+	    System.out.println("new Tab");
 	    driver.findElement(By.xpath(".//*[@id='Point of Service (POS)']/div[2]/input")).click();
 	    Thread.sleep(4000);
 	    driver.findElement(By.cssSelector("#btnContinue > span")).click();
