@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="123.839">
+  <properties />
+  
+  
+            <testcase name="f" time="123.839" classname="com.qa.test.CareFirst" />
+      
+</testsuite>

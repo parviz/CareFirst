@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
 import junit.framework.Assert;
-
+import org.testng.reporters.XMLReporter;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -38,7 +38,7 @@ public class CareFirst {
 	    driver.findElement(By.linkText("Find a Provider")).click();
 	    
 	    //driver.switchTo().window(title);
-	   //88888888888888888888888
+	   
 	    ArrayList<String> newTab = new ArrayList<String>(driver.getWindowHandles());
 	    newTab.remove(oldTab);
 	    // change focus to new tab
