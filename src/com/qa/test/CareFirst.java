@@ -38,7 +38,7 @@ public class CareFirst {
 	    driver.findElement(By.linkText("Find a Provider")).click();
 	    
 	    //driver.switchTo().window(title);
-	   
+	   //
 	    ArrayList<String> newTab = new ArrayList<String>(driver.getWindowHandles());
 	    newTab.remove(oldTab);
 	    // change focus to new tab
