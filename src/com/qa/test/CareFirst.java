@@ -48,7 +48,7 @@ public class CareFirst {
 	    //System.out.println("new Tab");
 	    driver.findElement(By.xpath(".//*[@id='Point of Service (POS)']/div[2]/input")).click();
 	    Thread.sleep(4000);
-	    //driver.findElement(By.cssSelector("#btnContinue > span")).click();
+	    driver.findElement(By.cssSelector("#btnContinue > span")).click();
 	    driver.findElement(By.id("zipCode")).clear();
 	    driver.findElement(By.id("zipCode")).sendKeys("20853");
 	    driver.findElement(By.id("primaryCare")).click();
