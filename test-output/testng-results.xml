@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="92158" started-at="2014-03-26T01:17:28Z" finished-at="2014-03-26T01:19:00Z">
+  <suite name="Default suite" duration-ms="87196" started-at="2014-03-29T16:10:05Z" finished-at="2014-03-29T16:11:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="92158" started-at="2014-03-26T01:17:28Z" finished-at="2014-03-26T01:19:00Z">
+    <test name="Default test" duration-ms="87196" started-at="2014-03-29T16:10:05Z" finished-at="2014-03-29T16:11:32Z">
       <class name="com.qa.test.CareFirst">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.test.CareFirst@3212de12]" name="beforeMethod" is-config="true" duration-ms="11554" started-at="2014-03-25T21:17:28Z" finished-at="2014-03-25T21:17:40Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.test.CareFirst@18301ea4]" name="beforeMethod" is-config="true" duration-ms="35286" started-at="2014-03-29T12:10:05Z" finished-at="2014-03-29T12:10:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f()[pri:0, instance:com.qa.test.CareFirst@3212de12]" name="f" duration-ms="80286" started-at="2014-03-25T21:17:40Z" finished-at="2014-03-25T21:19:00Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.qa.test.CareFirst@18301ea4]" name="f" duration-ms="50855" started-at="2014-03-29T12:10:40Z" finished-at="2014-03-29T12:11:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.test.CareFirst@3212de12]" name="afterMethod" is-config="true" duration-ms="303" started-at="2014-03-25T21:19:00Z" finished-at="2014-03-25T21:19:00Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.test.CareFirst@18301ea4]" name="afterMethod" is-config="true" duration-ms="1034" started-at="2014-03-29T12:11:31Z" finished-at="2014-03-29T12:11:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->

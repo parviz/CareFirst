@@ -60,8 +60,8 @@ public class CareFirst {
 	    driver.findElement(By.cssSelector("#main-nav > ul:nth-child(1) > li:nth-child(6) > a:nth-child(1) > div:nth-child(1)")).click();
 	    
 	    driver.findElement(By.cssSelector("#main-nav>ul:nth-child(1)>li:nth-child(6)>div:nth-child(2)>div:nth-child(5)>ul:nth-child(1)>li:nth-child(2)>a:nth-child(1)")).click();
-	    //String pcmh = driver.findElement(By.cssSelector("h1")).getText();
-	    //System.out.println(pcmh);
+	    String pcmh = driver.findElement(By.cssSelector("h1")).getText();
+	    System.out.println(pcmh);
 	    
 	    try {
 	        AssertJUnit.assertEquals("About Patient-Centered Medical Home (PCMH)", driver.findElement(By.cssSelector("h1")).getText());
